@@ -1,0 +1,5 @@
+Pages\CompareCSVFiles_Page.class
+Step_Definition\Hooks.class
+Step_Definition\RowDataStepDef.class
+Pages\CompareExcelSheets_Page.class
+Runners\TestRunner.class

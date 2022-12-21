@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.535">
+<testcase classname="India Covid19 tracking report" name="Compare newly generated CSV report to a similar file and different one" time="17.538">
+<system-out><![CDATA[Given India COVID API website is open.......................................passed
+When I download raw_data1 file..............................................passed
+Then I find the csv "Positive scenario file" report is the same as the newly generated report.passed
+]]></system-out>
+</testcase>
+<testcase classname="India Covid19 tracking report" name="Compare newly generated CSV report to a similar file and different one 2" time="12.64">
+<system-out><![CDATA[Given India COVID API website is open.......................................passed
+When I download raw_data1 file..............................................passed
+Then I find the csv "Negative scenario file" report is the same as the newly generated report.passed
+]]></system-out>
+</testcase>
+</testsuite>
